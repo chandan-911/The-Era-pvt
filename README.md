@@ -39,20 +39,6 @@ Operating under the guiding philosophy **"Art of Living Green"**, THE ERA transf
 
 ---
 
-## 📁 Repository Structure
-
-```text
-The Era Pvt/
-├── index.html        # Main landing page (HTML5 structure, styles, JS & JSON-LD)
-├── the-era-logo.png  # Official brand logo asset & favicon
-├── llms.txt          # LLM context file for Generative Engine Optimization (GEO)
-├── robots.txt        # Crawler directive file allowing search & AI bots
-├── sitemap.xml       # Search engine sitemap protocol file
-└── README.md         # Repository documentation
-```
-
----
-
 ## 🚀 Getting Started
 
 ### Local Development
@@ -86,7 +72,6 @@ The static nature of the project allows deployment to any modern web hosting ser
 
 ## 📞 Connect & Contact
 
-- **Website**: [https://theera.in/](https://theera.in/)
 - **WhatsApp Direct**: [+91 70094 46683](https://wa.me/+917009446683)
 - **Instagram**: [@the_era_pvt](https://www.instagram.com/the_era_pvt)
 - **Facebook**: [@the.era.pvt9](https://www.facebook.com/the.era.pvt9)
