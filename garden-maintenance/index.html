@@ -208,12 +208,55 @@
     </div>
 
     <div class="footer-bottom">
-      <div>&copy; THE ERA — <em>Art of Living Green.</em> All rights reserved.</div>
+      <div>&copy; 2026 THE ERA — <em>Art of Living Green.</em> All rights reserved.</div>
       <div><a href="/sitemap.xml" style="color: inherit; text-decoration: underline;">Sitemap</a></div>
     </div>
   </footer>
 
+  <!-- Coming Soon Interactive Modal -->
+  <div class="modal-overlay" id="comingSoonModal" aria-hidden="true" role="dialog">
+    <div class="modal-card">
+      <button class="modal-close-btn" onclick="closeComingSoonModal()" aria-label="Close Modal">&times;</button>
+      <div class="modal-tag">Digital Experience · Coming Soon</div>
+      <h3 class="modal-title" id="modalFeatureTitle">Online Store & Appointment Booking</h3>
+      <p class="modal-text">
+        We are building an integrated digital ordering system and direct appointment scheduling platform for THE ERA clients. In the meantime, custom plant orders, lawn turf supply, and landscape consultations are fully active directly via WhatsApp.
+      </p>
+      <div class="modal-actions">
+        <a href="https://wa.me/+917009446683" target="_blank" rel="noopener" class="btn-primary">Connect on WhatsApp (+91 70094 46683)</a>
+        <button onclick="closeComingSoonModal()" class="btn-secondary">Dismiss</button>
+      </div>
+    </div>
+  </div>
+
   <script>
+    function openComingSoonModal(featureName) {
+      const modal = document.getElementById('comingSoonModal');
+      const title = document.getElementById('modalFeatureTitle');
+      if (title && featureName) {
+        title.textContent = featureName + ' — Coming Soon';
+      }
+      if (modal) {
+        modal.classList.add('is-open');
+        modal.setAttribute('aria-hidden', 'false');
+      }
+    }
+
+    function closeComingSoonModal() {
+      const modal = document.getElementById('comingSoonModal');
+      if (modal) {
+        modal.classList.remove('is-open');
+        modal.setAttribute('aria-hidden', 'true');
+      }
+    }
+
+    document.addEventListener('click', (e) => {
+      const modal = document.getElementById('comingSoonModal');
+      if (e.target === modal) {
+        closeComingSoonModal();
+      }
+    });
+
     const menuToggle = document.getElementById('menuToggle');
     const navLinks = document.getElementById('navLinks');
     if (menuToggle && navLinks) {
