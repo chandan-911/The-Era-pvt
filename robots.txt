@@ -1,8 +1,20 @@
 # Robots.txt for THE ERA — Art of Living Green
+# Website: https://theerapvt.com/
+
 User-agent: *
 Allow: /
 
-# Allow AI Crawlers for Generative Engine Optimization (GEO)
+# Allow Search Engine Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Allow Generative AI & Search Bots (GEO / AEO Optimization)
+User-agent: OAI-SearchBot
+Allow: /
+
 User-agent: GPTBot
 Allow: /
 

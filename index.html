@@ -4,17 +4,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>THE ERA — Premium Landscape Architecture, Gardening & Plant Care</title>
+  <title>THE ERA | Premium Landscaping, Gardening & Plant Care</title>
 
-  <!-- Search Engine & GEO Meta Tags -->
-  <meta name="title" content="THE ERA — Premium Landscape Architecture, Gardening & Plant Care">
+  <!-- Search Engine & GEO / AEO Meta Tags -->
+  <meta name="title" content="THE ERA | Premium Landscaping, Gardening & Plant Care">
   <meta name="description"
-    content="THE ERA offers bespoke landscape architecture & design, professional gardening services, curated indoor & outdoor plants, and expert plant care solutions. Art of Living Green.">
+    content="THE ERA — Art of Living Green. Premium landscape design, garden architecture, professional gardening, curated plants, plant delivery, and plant-care & fertilizer solutions.">
   <meta name="keywords"
-    content="THE ERA, Landscape Architecture, Professional Gardening, Curated Plants, Plant Care, Garden Maintenance, Indoor Plants, Outdoor Landscaping, Plant Nutrition, Landscape Design">
+    content="THE ERA, Landscape Architecture, Garden Design, Gardening Services, Garden Maintenance, Plant Delivery, Indoor Plants, Outdoor Plants, Lawn Grass, Korean Grass, Selection Grass, Plant Care, Plant Nutrition, Fertilizer Recommendation">
   <meta name="author" content="THE ERA">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <meta name="theme-color" content="#123b28">
+
+  <!-- Google Search Console Verification Placeholder -->
+  <!-- <meta name="google-site-verification" content="GOOGLE_SITE_VERIFICATION_TOKEN_PLACEHOLDER"> -->
 
   <!-- Canonical URL -->
   <link rel="canonical" href="https://theerapvt.com/">
@@ -38,10 +41,30 @@
   <meta name="twitter:image" content="https://theerapvt.com/the-era-logo.png">
 
   <!-- Logo Favicon -->
-  <link rel="icon" type="image/png" href="the-era-logo.png">
-  <link rel="apple-touch-icon" href="the-era-logo.png">
+  <link rel="icon" type="image/png" href="/the-era-logo.png">
+  <link rel="apple-touch-icon" href="/the-era-logo.png">
 
-  <!-- JSON-LD Structured Data for Search & Generative AI Engines (GEO) -->
+  <!-- Centralized Stylesheet -->
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <!-- Configuration Placeholders -->
+  <script>
+    window.THE_ERA_CONFIG = {
+      BUSINESS_NAME: "THE ERA",
+      FULL_BRANDING: "THE ERA – Art of Living Green",
+      TAGLINE: "Art of Living Green.",
+      WEBSITE_URL: "https://theerapvt.com/",
+      WHATSAPP: "https://wa.me/+917009446683",
+      EMAIL: "admin.theera@gmail.com",
+      INSTAGRAM: "https://www.instagram.com/the_era_pvt",
+      FACEBOOK: "https://www.facebook.com/the.era.pvt9",
+      YOUTUBE: "https://www.youtube.com/@the-era-pvt",
+      SERVICE_AREA: "Verified Service Areas",
+      GA4_MEASUREMENT_ID: "G-MEASUREMENT_ID_PLACEHOLDER"
+    };
+  </script>
+
+  <!-- JSON-LD Structured Data (Organization, WebSite, FAQPage, OfferCatalog) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -49,11 +72,12 @@
       {
         "@type": "HomeAndConstructionBusiness",
         "@id": "https://theerapvt.com/#organization",
-        "name": "THE ERA — Art of Living Green",
-        "alternateName": "THE ERA",
+        "name": "THE ERA",
+        "alternateName": "THE ERA – Art of Living Green",
         "url": "https://theerapvt.com/",
         "logo": "https://theerapvt.com/the-era-logo.png",
         "image": "https://theerapvt.com/the-era-logo.png",
+        "email": "admin.theera@gmail.com",
         "description": "THE ERA is a luxury landscape architecture, professional gardening, curated plants, and plant-care solutions company. We design, nurture, deliver, and transform living spaces.",
         "telephone": "+917009446683",
         "priceRange": "$$",
@@ -67,21 +91,24 @@
           "Landscape Architecture",
           "Landscape Design",
           "Professional Gardening",
+          "Garden Maintenance",
           "Indoor Plants",
           "Outdoor Plants",
-          "Lawn Care & Turf Installation",
-          "Plant Nutrition & Care"
+          "Lawn Grass & Korean Turf",
+          "Selection Grass",
+          "Plant Nutrition & Fertilizer Recommendation"
         ],
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
-          "name": "Services & Offerings",
+          "name": "THE ERA Core Services",
           "itemListElement": [
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
                 "name": "Landscape Design & Architecture",
-                "description": "Bespoke garden concepts, spatial planning, and refined outdoor environments."
+                "url": "https://theerapvt.com/services/landscape-design-architecture/",
+                "description": "Bespoke garden concepts, spatial planning, villa & commercial landscape architecture."
               }
             },
             {
@@ -89,23 +116,26 @@
               "itemOffered": {
                 "@type": "Service",
                 "name": "Professional Gardening Services",
-                "description": "Garden maintenance, pruning, planting, lawn care, and ongoing garden care."
+                "url": "https://theerapvt.com/services/gardening-services/",
+                "description": "Garden maintenance, pruning, planting, lawn care, and ongoing garden services."
               }
             },
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Curated Plants & Delivery",
-                "description": "Hand-picked indoor and outdoor plants selected for your space, with convenient delivery."
+                "name": "Plant Delivery",
+                "url": "https://theerapvt.com/services/plant-delivery/",
+                "description": "Hand-picked indoor and outdoor plants selected for your space with reliable white-glove delivery."
               }
             },
             {
               "@type": "Offer",
               "itemOffered": {
                 "@type": "Service",
-                "name": "Plant Care & Nutrition",
-                "description": "Plant-care guidance, specialized fertilizer, and nutrition recommendations."
+                "name": "Plant Care & Fertilizer Recommendation",
+                "url": "https://theerapvt.com/services/plant-care-fertilizer-recommendation/",
+                "description": "Plant-care guidance, organic fertilizers, soil nutrition, and health diagnostic recommendations."
               }
             }
           ]
@@ -115,7 +145,7 @@
         "@type": "WebSite",
         "@id": "https://theerapvt.com/#website",
         "url": "https://theerapvt.com/",
-        "name": "THE ERA — Art of Living Green",
+        "name": "THE ERA – Art of Living Green",
         "description": "Premium landscape architecture, professional gardening, and plant solutions.",
         "publisher": {
           "@id": "https://theerapvt.com/#organization"
@@ -127,34 +157,34 @@
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "What services does THE ERA offer?",
+            "name": "What does THE ERA do?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "THE ERA provides landscape design and architecture, professional gardening services, curated indoor and outdoor plant delivery, and specialized plant nutrition and care products."
+              "text": "THE ERA provides landscape design and architecture, professional gardening services, curated plant delivery, and expert plant-care and fertilizer recommendations."
             }
           },
           {
             "@type": "Question",
-            "name": "How can I book landscape design or gardening services with THE ERA?",
+            "name": "What core services does THE ERA provide?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "You can connect directly with THE ERA team on WhatsApp at +91 70094 46683 or reach out via Instagram, Facebook, and YouTube."
+              "text": "THE ERA offers four primary services: 1) Landscape Design & Architecture, 2) Professional Gardening Services, 3) Plant Delivery, and 4) Plant Care & Fertilizer Recommendations."
             }
           },
           {
             "@type": "Question",
-            "name": "Does THE ERA deliver curated plants and plant nutrition?",
+            "name": "Who is THE ERA for?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes, THE ERA selects premium indoor and outdoor plants tailored to your environment and delivers organic plant fertilizers, nutrition, and care guidance."
+              "text": "THE ERA is designed for homeowners, luxury villas, terrace & balcony gardens, commercial spaces, and clients seeking architectural, low-maintenance green spaces."
             }
           },
           {
             "@type": "Question",
-            "name": "What is THE ERA's core philosophy?",
+            "name": "How can I contact THE ERA?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "THE ERA operates under the philosophy 'Art of Living Green' with four core pillars: Design, Nurture, Deliver, and Transform."
+              "text": "You can connect directly with THE ERA team via WhatsApp at +91 70094 46683, email admin.theera@gmail.com, or through official Instagram, Facebook, and YouTube channels."
             }
           }
         ]
@@ -162,641 +192,15 @@
     ]
   }
   </script>
-
-  <style>
-    *,
-    *::before,
-    *::after {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      margin: 0;
-      background: #f7f7f3;
-      color: #10261b;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.5;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    /* Header & Navigation */
-    .header {
-      height: 72px;
-      padding: 0 6%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      border-bottom: 1px solid #e3e5df;
-      background: rgba(247, 247, 243, 0.92);
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
-    }
-
-    .brand-logo {
-      display: flex;
-      align-items: center;
-      text-decoration: none;
-    }
-
-    .brand-logo img {
-      width: 48px;
-      height: 48px;
-      object-fit: contain;
-    }
-
-    .nav-links {
-      display: flex;
-      align-items: center;
-      gap: 28px;
-    }
-
-    .nav-link {
-      color: #10261b;
-      text-decoration: none;
-      font-size: 13px;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      font-weight: 500;
-      transition: color 0.2s ease;
-    }
-
-    .nav-link:hover {
-      color: #a77b2b;
-    }
-
-    .btn-primary {
-      background: #123b28;
-      color: #ffffff;
-      text-decoration: none;
-      padding: 11px 20px;
-      border-radius: 999px;
-      font-size: 13px;
-      font-weight: 600;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      transition: background 0.2s ease, transform 0.1s ease;
-      white-space: nowrap;
-    }
-
-    .btn-primary:hover {
-      background: #1b5239;
-    }
-
-    .btn-secondary {
-      border: 1px solid #b7c0b9;
-      color: #123b28;
-      text-decoration: none;
-      border-radius: 999px;
-      padding: 14px 25px;
-      font-size: 14px;
-      font-weight: 600;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      transition: border-color 0.2s ease, background 0.2s ease;
-      white-space: nowrap;
-    }
-
-    .btn-secondary:hover {
-      border-color: #123b28;
-      background: rgba(18, 59, 40, 0.04);
-    }
-
-    /* Mobile Navigation Button */
-    .mobile-menu-btn {
-      display: none;
-      background: transparent;
-      border: none;
-      padding: 8px;
-      cursor: pointer;
-      color: #10261b;
-      line-height: 0;
-      border-radius: 8px;
-    }
-
-    .mobile-menu-btn:focus-visible {
-      outline: 2px solid #123b28;
-    }
-
-    .mobile-menu-btn svg {
-      width: 26px;
-      height: 26px;
-    }
-
-    /* Hero Section */
-    .hero-section {
-      min-height: calc(100vh - 72px);
-      box-sizing: border-box;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      padding: 70px 6%;
-      background: radial-gradient(circle at 50% 15%, #fffdf8, #f7f7f3 58%, #edf0e9);
-    }
-
-    .hero-container {
-      max-width: 1000px;
-      width: 100%;
-    }
-
-    .tag-line {
-      margin: 0 0 16px;
-      color: #a77b2b;
-      font-size: 12px;
-      letter-spacing: 0.28em;
-      text-transform: uppercase;
-      font-weight: 600;
-    }
-
-    .hero-logo {
-      width: min(430px, 72vw);
-      height: auto;
-      max-height: 300px;
-      object-fit: contain;
-      display: block;
-      margin: 0 auto 28px;
-    }
-
-    .hero-title {
-      margin: 0;
-      font-family: Georgia, 'Times New Roman', serif;
-      font-weight: 400;
-      font-size: clamp(34px, 6.5vw, 86px);
-      letter-spacing: -0.045em;
-      line-height: 1.02;
-    }
-
-    .hero-description {
-      max-width: 650px;
-      margin: 28px auto 0;
-      font-size: clamp(15px, 2vw, 18px);
-      color: #66716b;
-      line-height: 1.6;
-    }
-
-    .hero-actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      justify-content: center;
-      margin-top: 36px;
-    }
-
-    .hero-actions .btn-primary {
-      padding: 15px 26px;
-      font-size: 14px;
-    }
-
-    .motto-line {
-      margin: 24px 0 0;
-      font-size: 11px;
-      color: #89918b;
-      letter-spacing: 0.12em;
-    }
-
-    /* Section Commons */
-    .section-padding {
-      padding: 110px 6%;
-    }
-
-    .section-container {
-      max-width: 1150px;
-      margin: auto;
-    }
-
-    .section-title {
-      margin: 0;
-      font-family: Georgia, 'Times New Roman', serif;
-      font-size: clamp(32px, 4.5vw, 64px);
-      font-weight: 400;
-      line-height: 1.05;
-    }
-
-    .section-subtitle {
-      max-width: 720px;
-      margin: 20px 0 50px;
-      color: #66716b;
-      font-size: clamp(15px, 2vw, 17px);
-      line-height: 1.6;
-    }
-
-    /* Services Section */
-    .services-section {
-      background: #fffdf8;
-    }
-
-    .services-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 18px;
-    }
-
-    .service-card {
-      padding: 34px;
-      background: #f1f0e8;
-      border-radius: 26px;
-      min-height: 220px;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
-
-    .service-card:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.03);
-    }
-
-    .service-card h3 {
-      font-family: Georgia, serif;
-      font-weight: 400;
-      font-size: 26px;
-      margin: 0 0 12px;
-      line-height: 1.2;
-    }
-
-    .service-card p {
-      color: #69736d;
-      margin: 0;
-      font-size: 15px;
-      line-height: 1.55;
-    }
-
-    /* Products Section */
-    .products-section {
-      background: #10261b;
-      color: #f7f7f3;
-    }
-
-    .products-header {
-      display: grid;
-      grid-template-columns: 1.1fr 0.9fr;
-      gap: 50px;
-      align-items: flex-end;
-    }
-
-    .products-header .tag-line {
-      color: #d0a65a;
-    }
-
-    .products-header p {
-      margin: 0;
-      color: #b9c3bd;
-      font-size: 17px;
-      line-height: 1.55;
-    }
-
-    .products-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-      gap: 16px;
-      margin-top: 55px;
-    }
-
-    .product-card {
-      padding: 28px;
-      border: 1px solid rgba(255, 255, 255, 0.15);
-      border-radius: 22px;
-      background: rgba(255, 255, 255, 0.02);
-      transition: border-color 0.2s ease, background 0.2s ease;
-    }
-
-    .product-card:hover {
-      border-color: rgba(208, 166, 90, 0.4);
-      background: rgba(255, 255, 255, 0.05);
-    }
-
-    .product-card h3 {
-      font-family: Georgia, serif;
-      font-weight: 400;
-      font-size: 24px;
-      margin: 0;
-    }
-
-    /* FAQ Section (SEO & GEO Optimised) */
-    .faq-section {
-      background: #fffdf8;
-    }
-
-    .faq-grid {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      max-width: 900px;
-      margin-top: 40px;
-    }
-
-    .faq-item {
-      background: #f1f0e8;
-      border-radius: 20px;
-      padding: 24px 28px;
-      transition: background 0.2s ease, box-shadow 0.2s ease;
-    }
-
-    .faq-item[open] {
-      background: #eae8dc;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
-    }
-
-    .faq-question {
-      font-family: Georgia, serif;
-      font-size: clamp(18px, 2.5vw, 22px);
-      font-weight: 400;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      list-style: none;
-      user-select: none;
-      color: #10261b;
-    }
-
-    .faq-question::-webkit-details-marker {
-      display: none;
-    }
-
-    .faq-icon {
-      width: 22px;
-      height: 22px;
-      transition: transform 0.25 ease;
-      flex-shrink: 0;
-      margin-left: 12px;
-      stroke: #123b28;
-    }
-
-    .faq-item[open] .faq-icon {
-      transform: rotate(180deg);
-    }
-
-    .faq-answer {
-      margin-top: 14px;
-      color: #55625a;
-      font-size: 15px;
-      line-height: 1.6;
-    }
-
-    .faq-answer a {
-      color: #123b28;
-      font-weight: 600;
-      text-decoration: underline;
-    }
-
-    /* Coming Soon CTA Section */
-    .cta-section {
-      background: #f7f7f3;
-      text-align: center;
-    }
-
-    .cta-container {
-      max-width: 760px;
-      margin: auto;
-    }
-
-    .cta-title {
-      font-family: Georgia, 'Times New Roman', serif;
-      font-size: clamp(34px, 5.5vw, 72px);
-      font-weight: 400;
-      line-height: 1.05;
-      margin: 0;
-    }
-
-    .cta-description {
-      margin: 24px auto 0;
-      color: #66716b;
-      font-size: clamp(15px, 2vw, 17px);
-      max-width: 620px;
-      line-height: 1.6;
-    }
-
-    .cta-button {
-      display: inline-block;
-      margin-top: 32px;
-      background: #123b28;
-      color: #ffffff;
-      text-decoration: none;
-      border-radius: 999px;
-      padding: 16px 30px;
-      font-size: 14px;
-      font-weight: 600;
-      transition: background 0.2s ease;
-    }
-
-    .cta-button:hover {
-      background: #1b5239;
-    }
-
-    /* Footer */
-    .footer {
-      padding: 70px 6% 30px;
-      background: #fffdf8;
-      border-top: 1px solid #e3e5df;
-    }
-
-    .footer-top {
-      max-width: 1150px;
-      margin: auto;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 40px;
-      justify-content: space-between;
-      align-items: flex-end;
-    }
-
-    .footer-brand img {
-      width: 95px;
-      height: 95px;
-      object-fit: contain;
-    }
-
-    .footer-brand p {
-      font-family: Georgia, serif;
-      font-size: 22px;
-      margin: 8px 0 0;
-    }
-
-    .footer-social-title {
-      margin: 0 0 15px;
-      font-size: 11px;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: #8a918c;
-    }
-
-    .social-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-    }
-
-    .social-link {
-      text-decoration: none;
-      color: #123b28;
-      border: 1px solid #c9d0ca;
-      padding: 11px 16px;
-      border-radius: 999px;
-      font-size: 13px;
-      font-weight: 500;
-      transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
-    }
-
-    .social-link:hover {
-      background: #123b28;
-      color: #ffffff;
-      border-color: #123b28;
-    }
-
-    .footer-bottom {
-      max-width: 1150px;
-      margin: 55px auto 0;
-      padding-top: 20px;
-      border-top: 1px solid #e3e5df;
-      display: flex;
-      justify-content: space-between;
-      gap: 20px;
-      flex-wrap: wrap;
-      color: #8a918c;
-      font-size: 12px;
-    }
-
-    /* Mobile Responsive Breakpoints */
-    @media (max-width: 768px) {
-      .header {
-        height: 64px;
-        padding: 0 5%;
-      }
-
-      .mobile-menu-btn {
-        display: block;
-      }
-
-      .nav-links {
-        position: fixed;
-        top: 64px;
-        left: 0;
-        right: 0;
-        background: #f7f7f3;
-        border-bottom: 1px solid #e3e5df;
-        flex-direction: column;
-        padding: 24px 6%;
-        gap: 16px;
-        align-items: stretch;
-        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
-        display: none;
-      }
-
-      .nav-links.is-active {
-        display: flex;
-      }
-
-      .nav-link {
-        font-size: 14px;
-        padding: 10px 0;
-        border-bottom: 1px solid #e5e7e1;
-      }
-
-      .nav-links .btn-primary {
-        margin-top: 8px;
-        text-align: center;
-        padding: 14px;
-      }
-
-      .section-padding {
-        padding: 70px 5%;
-      }
-
-      .hero-section {
-        min-height: auto;
-        padding: 50px 5% 70px;
-      }
-
-      .hero-title br,
-      .products-header h2 br,
-      .section-title br,
-      .cta-title br {
-        display: none;
-      }
-
-      .products-header {
-        grid-template-columns: 1fr;
-        gap: 20px;
-      }
-
-      .services-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .products-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-
-      .footer-top {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 32px;
-      }
-
-      .footer-bottom {
-        flex-direction: column;
-        gap: 12px;
-        text-align: center;
-      }
-    }
-
-    @media (max-width: 480px) {
-      .products-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .hero-actions {
-        flex-direction: column;
-        width: 100%;
-      }
-
-      .hero-actions .btn-primary,
-      .hero-actions .btn-secondary {
-        width: 100%;
-      }
-
-      .service-card {
-        padding: 26px 22px;
-        min-height: auto;
-      }
-
-      .product-card {
-        padding: 22px;
-      }
-
-      .social-links {
-        width: 100%;
-      }
-
-      .social-link {
-        flex: 1 1 calc(50% - 10px);
-        text-align: center;
-      }
-
-      .faq-item {
-        padding: 20px 22px;
-      }
-    }
-  </style>
 </head>
 
 <body>
 
-  <!-- Sticky Header -->
+  <!-- Sticky Glassmorphism Header -->
   <header class="header">
-    <a href="#top" class="brand-logo" aria-label="THE ERA Home">
-      <img src="the-era-logo.png" alt="THE ERA — Art of Living Green Logo">
+    <a href="/" class="brand-logo" aria-label="THE ERA Homepage">
+      <img src="/the-era-logo.png" alt="THE ERA Logo — Art of Living Green" width="44" height="44">
+      <span class="brand-logo-text">THE ERA</span>
     </a>
 
     <button class="mobile-menu-btn" id="menuToggle" aria-label="Toggle Navigation Menu">
@@ -806,103 +210,165 @@
     </button>
 
     <nav class="nav-links" id="navLinks">
-      <a href="#services" class="nav-link">Services</a>
-      <a href="#products" class="nav-link">Products</a>
-      <a href="#faq" class="nav-link">FAQ</a>
-      <a href="https://wa.me/+917009446683" target="_blank" rel="noopener" class="btn-primary">Connect</a>
+      <a href="/about/" class="nav-link">About</a>
+      <a href="/services/" class="nav-link">Services</a>
+      <a href="/plants/" class="nav-link">Plants & Grass</a>
+      <a href="/garden-design/" class="nav-link">Garden Design</a>
+      <a href="/blog/" class="nav-link">Journal</a>
+      <a href="/contact/" class="nav-link">Contact</a>
+      <a href="https://wa.me/+917009446683" target="_blank" rel="noopener" class="btn-primary">Connect on WhatsApp</a>
     </nav>
   </header>
 
   <main id="top">
+
     <!-- Hero Section -->
     <section class="hero-section">
       <div class="hero-container">
-        <p class="tag-line">Coming Soon</p>
-        <img src="the-era-logo.png" alt="THE ERA — Art of Living Green - Landscape Architecture & Plant Solutions"
-          class="hero-logo">
-        <h1 class="hero-title">A greener way<br>to live beautifully.</h1>
-        <p class="hero-description">Bespoke landscape architecture, professional gardening, curated plants and expert
-          plant-care solutions — brought together by THE ERA.</p>
+        <p class="tag-line">Art of Living Green</p>
+        <img src="/the-era-logo.png" alt="THE ERA — Art of Living Green - Landscape Architecture & Plant Solutions"
+          class="hero-logo" width="430" height="280" loading="eager">
+        <h1 class="hero-title">Art of Living Green.</h1>
+        <p class="hero-description">
+          THE ERA provides bespoke landscape architecture, professional gardening services, curated plant delivery, and expert plant-care & fertilizer solutions — bringing timeless elegance to residential and commercial outdoor environments.
+        </p>
+
+        <!-- Concise Answer Block (GEO / AI Search Optimization) -->
+        <div class="answer-block" style="text-align: left; max-width: 720px; margin: 32px auto 0;">
+          <h3>What THE ERA Does</h3>
+          <p>
+            THE ERA is a luxury green-lifestyle and landscape architecture brand. We design, nurture, deliver, and transform spaces through bespoke landscape concepts, professional garden maintenance, hand-picked indoor and outdoor plant delivery, and tailored plant nutrition recommendations.
+          </p>
+        </div>
+
         <div class="hero-actions">
-          <a href="https://wa.me/+917009446683" target="_blank" rel="noopener" class="btn-primary">Connect on
-            WhatsApp</a>
-          <a href="#services" class="btn-secondary">Explore Services</a>
+          <a href="https://wa.me/+917009446683" target="_blank" rel="noopener" class="btn-primary">Connect on WhatsApp</a>
+          <a href="/services/" class="btn-secondary">Explore All Services</a>
         </div>
 
         <p class="motto-line">DESIGN · NURTURE · DELIVER · TRANSFORM</p>
       </div>
     </section>
 
-    <!-- Services Section -->
+    <!-- Core Services Section -->
     <section id="services" class="services-section section-padding">
       <div class="section-container">
-        <p class="tag-line">What we do</p>
+        <p class="tag-line">Services & Expertise</p>
         <h2 class="section-title">Green spaces,<br>thoughtfully created.</h2>
-        <p class="section-subtitle">From the first landscape concept to ongoing garden care, THE ERA is built around
-          quality, detail and a seamless premium experience.</p>
+        <p class="section-subtitle">
+          From initial landscape design concepts to ongoing garden care and specialized plant nutrition, THE ERA provides four core pillars of expertise.
+        </p>
 
         <div class="services-grid">
-          <article class="service-card">
+          <a href="/services/landscape-design-architecture/" class="service-card">
             <h3>Landscape Design & Architecture</h3>
-            <p>Bespoke garden concepts, spatial planning and refined outdoor environments tailored to residential and
-              commercial spaces.</p>
-          </article>
+            <p>Bespoke garden concepts, spatial planning, villa outdoor architecture, hardscape integration, and terrace gardens.</p>
+            <span class="card-link">Learn More &rarr;</span>
+          </a>
 
-          <article class="service-card">
-            <h3>Professional Gardening</h3>
-            <p>Garden installation, regular maintenance, tree & shrub pruning, lawn care and ongoing expert garden
-              services.</p>
-          </article>
+          <a href="/services/gardening-services/" class="service-card">
+            <h3>Professional Gardening Services</h3>
+            <p>Routine garden maintenance, lawn care, tree pruning, planting installation, and seasonal garden development.</p>
+            <span class="card-link">Learn More &rarr;</span>
+          </a>
 
-          <article class="service-card">
-            <h3>Curated Plants & Delivery</h3>
-            <p>Hand-picked indoor and outdoor plants selected specifically for your space, with convenient white-glove
-              delivery.</p>
-          </article>
+          <a href="/services/plant-delivery/" class="service-card">
+            <h3>Plant Delivery</h3>
+            <p>Hand-picked indoor foliage, outdoor ornamental plants, exotic specimens, and white-glove plant delivery.</p>
+            <span class="card-link">Learn More &rarr;</span>
+          </a>
 
-          <article class="service-card">
-            <h3>Plant Care & Nutrition</h3>
-            <p>Plant-care guidance, organic fertilizers, specialized plant nutrition recommendations and health
-              monitoring products.</p>
-          </article>
+          <a href="/services/plant-care-fertilizer-recommendation/" class="service-card">
+            <h3>Plant Care & Fertilizer</h3>
+            <p>Expert plant-care guidance, organic fertilizers, diagnostic plant nutrition, and health monitoring advice.</p>
+            <span class="card-link">Learn More &rarr;</span>
+          </a>
         </div>
       </div>
     </section>
 
-    <!-- Products Section -->
+    <!-- Curated Plants & Lawn Grass Section -->
     <section id="products" class="products-section section-padding">
       <div class="section-container">
-        <p class="tag-line">Curated for living</p>
         <div class="products-header">
-          <h2 class="section-title">Plants that make<br>a space feel alive.</h2>
-          <p>A future collection of indoor and outdoor plants, lawn and grass, fertilizers and plant-care essentials for
-            beautiful spaces.</p>
+          <div>
+            <p class="tag-line">Curated Selection</p>
+            <h2 class="section-title">Botanical solutions<br>for architectural spaces.</h2>
+          </div>
+          <div>
+            <p>Explore curated indoor foliage, outdoor ornamental specimens, specialized lawn grasses including Korean Grass and Selection Grass, and professional plant nutrition products.</p>
+          </div>
         </div>
 
         <div class="products-grid">
-          <article class="product-card">
+          <a href="/plants/indoor-plants/" class="product-card">
             <h3>Indoor Plants</h3>
-          </article>
-          <article class="product-card">
+            <p>Air-purifying foliage, architectural indoor plants, and container specimens.</p>
+          </a>
+
+          <a href="/plants/outdoor-plants/" class="product-card">
             <h3>Outdoor Plants</h3>
-          </article>
-          <article class="product-card">
-            <h3>Lawn & Grass</h3>
-          </article>
-          <article class="product-card">
-            <h3>Plant Nutrition</h3>
-          </article>
+            <p>Sun-tolerant ornamentals, screening plants, and garden landscape flora.</p>
+          </a>
+
+          <a href="/plants/korean-grass/" class="product-card">
+            <h3>Korean Grass</h3>
+            <p>Fine-textured <em>Zoysia japonica</em> turf ideal for luxury residential lawns and villa landscapes.</p>
+          </a>
+
+          <a href="/plants/selection-grass/" class="product-card">
+            <h3>Selection Grass</h3>
+            <p>Dense, high-durability lawn grass engineered for active residential and commercial spaces.</p>
+          </a>
+
+          <a href="/plants/lawn-grass/" class="product-card">
+            <h3>Lawn Grass Guide</h3>
+            <p>Detailed technical comparison of turf varieties, climate suitabilities, and lawn care.</p>
+          </a>
+
+          <a href="/plants/areca-palm/" class="product-card">
+            <h3>Areca Palm Guide</h3>
+            <p>Factual care guide for <em>Dypsis lutescens</em> foliage in indoor and balcony environments.</p>
+          </a>
         </div>
       </div>
     </section>
 
-    <!-- FAQ Section (SEO & GEO Optimized) -->
+    <!-- Specialized Solutions Section -->
+    <section class="section-padding" style="background: #fffdf8;">
+      <div class="section-container">
+        <p class="tag-line">Tailored Solutions</p>
+        <h2 class="section-title">Designed for homes,<br>villas and commercial spaces.</h2>
+        <p class="section-subtitle">Whether creating a low-maintenance balcony garden or developing an expansive villa landscape, THE ERA delivers tailored green environments.</p>
+
+        <div class="services-grid">
+          <a href="/garden-design/" class="service-card">
+            <h3>Garden Design</h3>
+            <p>Custom garden planning, terrace & balcony greening, hardscape aesthetics, and architectural plant composition.</p>
+            <span class="card-link">Explore Garden Design &rarr;</span>
+          </a>
+
+          <a href="/garden-maintenance/" class="service-card">
+            <h3>Garden Maintenance</h3>
+            <p>Ongoing maintenance programs, hedge trimming, soil enrichment, pest management, and seasonal lawn restoration.</p>
+            <span class="card-link">Explore Maintenance &rarr;</span>
+          </a>
+
+          <a href="/blog/" class="service-card">
+            <h3>The ERA Journal</h3>
+            <p>Expert articles on Korean grass care, plant nutrition recommendations, and seasonal garden advice.</p>
+            <span class="card-link">Read Articles &rarr;</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section (GEO & Search Engine Optimized) -->
     <section id="faq" class="faq-section section-padding">
       <div class="section-container">
         <p class="tag-line">Frequently Asked Questions</p>
         <h2 class="section-title">Everything you need<br>to know about THE ERA.</h2>
-        <p class="section-subtitle">Discover how we design, nurture, deliver, and transform spaces into living green
-          environments.</p>
+        <p class="section-subtitle">Discover how we design, nurture, deliver, and transform spaces into living green environments.</p>
 
         <div class="faq-grid">
           <details class="faq-item" open>
@@ -913,109 +379,141 @@
               </svg>
             </summary>
             <div class="faq-answer">
-              <p>THE ERA provides comprehensive landscape design & architecture, professional garden installation &
-                maintenance, curated indoor and outdoor plant delivery, and specialized plant nutrition and care
-                products.</p>
+              THE ERA provides four primary services: 1) <a href="/services/landscape-design-architecture/">Landscape Design & Architecture</a> for residential, villa, and commercial spaces; 2) <a href="/services/gardening-services/">Professional Gardening Services</a> including garden setup and ongoing maintenance; 3) <a href="/services/plant-delivery/">Plant Delivery</a> for indoor and outdoor curated plants; and 4) <a href="/services/plant-care-fertilizer-recommendation/">Plant Care & Fertilizer Recommendations</a>.
             </div>
           </details>
 
           <details class="faq-item">
             <summary class="faq-question">
-              <span>How can I book landscape design or gardening services with THE ERA?</span>
+              <span>Who is THE ERA designed for?</span>
               <svg class="faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
               </svg>
             </summary>
             <div class="faq-answer">
-              <p>You can connect directly with our expert team on WhatsApp at <a href="https://wa.me/+917009446683"
-                  target="_blank" rel="noopener">+91 70094 46683</a> or reach out via Instagram, Facebook, and YouTube.
-                We discuss your space, vision, and specific requirements to curate a custom plan.</p>
+              THE ERA is designed for homeowners, luxury villa owners, balcony & terrace garden enthusiasts, and commercial properties looking for refined, professionally designed, and well-maintained green spaces.
             </div>
           </details>
 
           <details class="faq-item">
             <summary class="faq-question">
-              <span>Does THE ERA deliver curated plants and plant nutrition?</span>
+              <span>What types of lawn grass does THE ERA provide?</span>
               <svg class="faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
               </svg>
             </summary>
             <div class="faq-answer">
-              <p>Yes, we offer hand-picked indoor and outdoor plants suited for your specific light and climate
-                conditions, as well as organic fertilizers, lawn turf, and custom plant care kits.</p>
+              THE ERA provides technical guidance and installation recommendations for premium lawn turf varieties including <a href="/plants/korean-grass/">Korean Grass</a> (<em>Zoysia japonica</em>) and <a href="/plants/selection-grass/">Selection Grass</a>. Learn more on our <a href="/plants/lawn-grass/">Lawn Grass Guide</a> page.
             </div>
           </details>
 
           <details class="faq-item">
             <summary class="faq-question">
-              <span>What is THE ERA's core philosophy?</span>
+              <span>How can I request a landscape design consultation or plant care advice?</span>
               <svg class="faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
               </svg>
             </summary>
             <div class="faq-answer">
-              <p>THE ERA operates under the philosophy <strong>Art of Living Green</strong> with four foundational
-                pillars: <strong>Design · Nurture · Deliver · Transform</strong> to create enduring, vibrant green
-                spaces.</p>
+              You can connect directly with THE ERA team on <a href="https://wa.me/+917009446683" target="_blank" rel="noopener">WhatsApp (+91 70094 46683)</a>, email <a href="mailto:admin.theera@gmail.com">admin.theera@gmail.com</a>, or submit an inquiry through our <a href="/contact/">Contact Page</a>.
             </div>
           </details>
         </div>
       </div>
     </section>
 
-    <!-- Coming Soon Callout -->
+    <!-- Direct CTA Section -->
     <section class="cta-section section-padding">
       <div class="cta-container">
-        <p class="tag-line">Our digital experience is growing</p>
-        <h2 class="cta-title">The ERA web experience<br>is coming soon.</h2>
-        <p class="cta-description">Until then, connect with our team directly for landscaping, gardening, plants and
-          plant-care requirements.</p>
-        <a href="https://wa.me/+917009446683" target="_blank" rel="noopener" class="cta-button">Start a Conversation</a>
+        <h2 class="cta-title">Ready to transform<br>your outdoor space?</h2>
+        <p class="cta-description">
+          Connect directly with THE ERA landscape architects and plant-care specialists for tailored consultations, garden development, and curated plant orders.
+        </p>
+        <a href="https://wa.me/+917009446683" target="_blank" rel="noopener" class="cta-button">Connect on WhatsApp</a>
       </div>
     </section>
+
   </main>
 
   <!-- Footer -->
   <footer class="footer">
     <div class="footer-top">
       <div class="footer-brand">
-        <img src="the-era-logo.png" alt="THE ERA Logo">
-        <p>Art of Living Green.</p>
+        <img src="/the-era-logo.png" alt="THE ERA Logo" width="72" height="72" loading="lazy">
+        <p>THE ERA</p>
+        <span>Art of Living Green.</span>
+      </div>
+
+      <div class="footer-links-group">
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="/about/">About THE ERA</a></li>
+            <li><a href="/services/">Services Overview</a></li>
+            <li><a href="/plants/">Plants & Grass</a></li>
+            <li><a href="/blog/">Journal</a></li>
+            <li><a href="/contact/">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Core Services</h4>
+          <ul>
+            <li><a href="/services/landscape-design-architecture/">Landscape Architecture</a></li>
+            <li><a href="/services/gardening-services/">Gardening Services</a></li>
+            <li><a href="/services/plant-delivery/">Plant Delivery</a></li>
+            <li><a href="/services/plant-care-fertilizer-recommendation/">Plant Care & Nutrition</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Botanical & Turf</h4>
+          <ul>
+            <li><a href="/plants/korean-grass/">Korean Grass</a></li>
+            <li><a href="/plants/selection-grass/">Selection Grass</a></li>
+            <li><a href="/plants/indoor-plants/">Indoor Plants</a></li>
+            <li><a href="/plants/outdoor-plants/">Outdoor Plants</a></li>
+            <li><a href="/plants/areca-palm/">Areca Palm Guide</a></li>
+          </ul>
+        </div>
       </div>
 
       <div>
-        <p class="footer-social-title">Connect with THE ERA</p>
+        <p class="footer-social-title">Connect & Follow</p>
         <div class="social-links">
           <a href="https://wa.me/+917009446683" target="_blank" rel="noopener" class="social-link">WhatsApp</a>
-          <a href="https://www.instagram.com/the_era_pvt" target="_blank" rel="noopener"
-            class="social-link">Instagram</a>
-          <a href="https://www.facebook.com/the.era.pvt9" target="_blank" rel="noopener"
-            class="social-link">Facebook</a>
+          <a href="https://www.instagram.com/the_era_pvt" target="_blank" rel="noopener" class="social-link">Instagram</a>
+          <a href="https://www.facebook.com/the.era.pvt9" target="_blank" rel="noopener" class="social-link">Facebook</a>
           <a href="https://www.youtube.com/@the-era-pvt" target="_blank" rel="noopener" class="social-link">YouTube</a>
         </div>
       </div>
     </div>
 
     <div class="footer-bottom">
-      <span> Copyright © 2026 THE ERA — Art of Living Green.</span>
-      <span>DESIGN · NURTURE · DELIVER · TRANSFORM</span>
+      <div>&copy; THE ERA — <em>Art of Living Green.</em> All rights reserved.</div>
+      <div>
+        <a href="/sitemap.xml" style="color: inherit; text-decoration: underline;">Sitemap</a> | 
+        <a href="/robots.txt" style="color: inherit; text-decoration: underline;">Robots.txt</a>
+      </div>
     </div>
   </footer>
 
+  <!-- Mobile Drawer Toggle Script -->
   <script>
     const menuToggle = document.getElementById('menuToggle');
     const navLinks = document.getElementById('navLinks');
 
-    menuToggle.addEventListener('click', () => {
-      navLinks.classList.toggle('is-active');
-    });
-
-    // Close mobile nav when clicking a link
-    navLinks.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => {
-        navLinks.classList.remove('is-active');
+    if (menuToggle && navLinks) {
+      menuToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('is-active');
       });
-    });
+
+      navLinks.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          navLinks.classList.remove('is-active');
+        });
+      });
+    }
   </script>
 </body>
 

@@ -1,18 +1,43 @@
 # THE ERA — Art of Living Green
+# Website: https://theerapvt.com/
 
 > THE ERA is a luxury landscape architecture, professional gardening, curated plant, and plant-care solutions provider.
 
-## Core Offerings & Services
-- **Landscape Design & Architecture**: Bespoke garden concepts, spatial planning, residential & commercial landscape architecture, and refined outdoor environments.
-- **Professional Gardening Services**: Garden setup, ongoing lawn care, pruning, tree maintenance, soil enrichment, and seasonal garden care.
-- **Curated Plants & Delivery**: Hand-picked indoor foliage, air-purifying plants, outdoor ornamental plants, exotic trees, custom planters, and reliable delivery.
-- **Plant Care & Nutrition**: Organic plant food, balanced fertilizers, plant health diagnostics, soil nutrition, and expert care consultations.
+## Brand Summary
+- Brand Name: THE ERA
+- Full Branding: THE ERA – Art of Living Green
+- Philosophy: DESIGN · NURTURE · DELIVER · TRANSFORM
+- Category: Premium Landscaping, Gardening & Plant Care
 
-## Philosophy
-DESIGN · NURTURE · DELIVER · TRANSFORM
+## Core Services & Capabilities
+1. Landscape Design & Architecture (https://theerapvt.com/services/landscape-design-architecture/)
+   - Bespoke garden concepts, spatial planning, hardscape integration, terrace greening, villa grounds.
+2. Professional Gardening Services (https://theerapvt.com/services/gardening-services/)
+   - Routine garden maintenance, lawn mowing, pruning, seasonal planting, garden cleanup.
+3. Plant Delivery (https://theerapvt.com/services/plant-delivery/)
+   - Hand-picked indoor foliage, air purifiers, outdoor ornamentals, white-glove plant delivery.
+4. Plant Care & Fertilizer Recommendation (https://theerapvt.com/services/plant-care-fertilizer-recommendation/)
+   - Soil health diagnostic guidance, organic NPK fertilizer selection, plant care schedules.
 
-## Direct Contact & Social Channels
-- **WhatsApp Direct**: https://wa.me/+917009446683
-- **Instagram**: https://www.instagram.com/the_era_pvt
-- **Facebook**: https://www.facebook.com/the.era.pvt9
-- **YouTube**: https://www.youtube.com/@the-era-pvt
+## Turfgrass & Botanical Guides
+- Korean Grass (Zoysia japonica): https://theerapvt.com/plants/korean-grass/
+- Selection Grass: https://theerapvt.com/plants/selection-grass/
+- Lawn Grass Guide: https://theerapvt.com/plants/lawn-grass/
+- Indoor Plants: https://theerapvt.com/plants/indoor-plants/
+- Areca Palm Guide: https://theerapvt.com/plants/areca-palm/
+
+## Key Public Index URLs
+- Homepage: https://theerapvt.com/
+- About Page: https://theerapvt.com/about/
+- Services Index: https://theerapvt.com/services/
+- Botanical Index: https://theerapvt.com/plants/
+- Journal / Blog: https://theerapvt.com/blog/
+- Contact Page: https://theerapvt.com/contact/
+- Sitemap: https://theerapvt.com/sitemap.xml
+
+## Direct Verified Contact & Social Channels
+- WhatsApp Direct: https://wa.me/+917009446683 (+91 70094 46683)
+- Email: admin.theera@gmail.com
+- Instagram: https://www.instagram.com/the_era_pvt (@the_era_pvt)
+- Facebook: https://www.facebook.com/the.era.pvt9 (@the.era.pvt9)
+- YouTube: https://www.youtube.com/@the-era-pvt (@the-era-pvt)
