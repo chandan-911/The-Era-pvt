@@ -1,8 +1,8 @@
 # THE ERA — Art of Living Green
 
-[![Status](https://img.shields.io/badge/Status-Coming%20Soon-123b28?style=for-the-badge)](https://theera.in/)
-[![Tech Stack](https://img.shields.io/badge/Tech--Stack-HTML5%20%7C%20Vanilla%20CSS%20%7C%20JS-a77b2b?style=for-the-badge)](https://theera.in/)
-[![SEO & GEO](https://img.shields.io/badge/Optimization-SEO%20%26%20GEO%20Ready-1b5239?style=for-the-badge)](https://theera.in/)
+[![Status](https://img.shields.io/badge/Status-Coming%20Soon-123b28?style=for-the-badge)](https://theerapvt.com/)
+[![Tech Stack](https://img.shields.io/badge/Tech--Stack-HTML5%20%7C%20Vanilla%20CSS%20%7C%20JS-a77b2b?style=for-the-badge)](https://theerapvt.com/)
+[![SEO & GEO](https://img.shields.io/badge/Optimization-SEO%20%26%20GEO%20Ready-1b5239?style=for-the-badge)](https://theerapvt.com/)
 
 Welcome to the official web repository for **THE ERA** — a premium landscape architecture, professional gardening, curated plant, and expert plant-care solutions provider. 
 
@@ -72,6 +72,7 @@ The static nature of the project allows deployment to any modern web hosting ser
 
 ## 📞 Connect & Contact
 
+- **Website**: [https://theerapvt.com/](https://theerapvt.com/)
 - **WhatsApp Direct**: [+91 70094 46683](https://wa.me/+917009446683)
 - **Instagram**: [@the_era_pvt](https://www.instagram.com/the_era_pvt)
 - **Facebook**: [@the.era.pvt9](https://www.facebook.com/the.era.pvt9)

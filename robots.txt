@@ -24,4 +24,4 @@ Allow: /
 User-agent: Bytespider
 Allow: /
 
-Sitemap: https://theera.in/sitemap.xml
+Sitemap: https://theerapvt.com/sitemap.xml
